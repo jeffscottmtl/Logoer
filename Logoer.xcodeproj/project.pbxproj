@@ -549,8 +549,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/sparkle-project/Sparkle";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.6.4;
+				kind = exactVersion;
+				version = 2.9.2;
 			};
 		};
 		18747AD52C4FF36C006FC3B5 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
