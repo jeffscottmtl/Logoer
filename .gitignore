@@ -12,6 +12,12 @@ xcuserdata/
 ## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
 build/
 DerivedData/
+# xcodebuild -derivedDataPath build-release. 445 MB, 735 files, entirely
+# regenerable caches (CompilationCache/ModuleCache/SDKStatCaches .noindex,
+# Logs, SourcePackages). Untracked but NOT ignored until 2026-08-12, which
+# made this one repo 83% of every untracked file in ~/Developer and buried
+# the handful that are real work.
+build-release/
 *.moved-aside
 *.pbxuser
 !default.pbxuser
